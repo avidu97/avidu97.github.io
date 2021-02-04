@@ -7,14 +7,22 @@
   <title>Sri Lanka's Fastest Fully Managed VPS Web Hosting</title>
   <meta name="description" content="The HTML5 Herald">
   <meta name="author" content="SitePoint">
-
-  <link rel="stylesheet" href="css/styles.css?v=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 
 </head>
 
 <body>
-<header></header>
+<div id="butter">
+  <header></header>
 <section class="hero">
+    <svg class="hero-bg" width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect width="1920" height="1080" fill="#00132D"/>
+    <line x1="1020.5" y1="-2.18557e-08" x2="1020.5" y2="1080" stroke="#C8C8C8"/>
+    <line x1="770.5" y1="-2.18557e-08" x2="770.5" y2="1080" stroke="#C8C8C8"/>
+    <line x1="1270.5" y1="-2.18557e-08" x2="1270.5" y2="1080" stroke="#C8C8C8"/>
+    </svg>
+    
   <div class="hero-container">
     <div class="hero-left">
       <h1>
@@ -26,7 +34,9 @@
       <button class="hero-button">ORDER NOW</button>
       <button class="hero-button">FREE TEST</button>
     </div>
-    <div class="hero-right"></div>
+    <div class="hero-right">
+      <lottie-player src="" background="transparent"  speed="1"  style="width: 500px; height: 500px;" loop autoplay></lottie-player>
+    </div>
   </div>
 </section>
 <section class="providers">
@@ -169,6 +179,42 @@
 
 
 
+<section class="pricing">
+  <div class="p-container">
+    <div class="p-table 1">
+      <div class="p-header">
+        <div class="price">
+          <div class="sign">LKR</div>
+          1940
+          <div class="per">/MO</div>
+        </div>
+        <div class="plan">25K</div>
+      </div>
+      <div class="divider"></div>
+      <div class="feature">
+        <img src="" alt="">
+        Feature 1
+      </div>
+      <div class="feature">
+        <img src="" alt="">
+        Feature 2
+      </div>
+      <div class="feature">
+        <img src="" alt="">
+        Feature 3
+      </div>
+    </div>
+    <div class="p-table 2">
+
+    </div>
+    <div class="p-table 3">
+
+    </div>
+  </div>
+</section>
+
+
+
 
 
 <section class="us">
@@ -194,7 +240,28 @@
       <p>If you want a test a server, just message us, we can quickly set up a server for you. And you can get an answer for any other internet, web, and server related questions. Typically we’ll contact you within few hours.</p>
     </div>
     <div class="c-right">
-      <h2>contact form</h2>
+      <form action="https://www.url.com/contact.php" method="GET">
+        <label for="">
+          Name:
+          <input type="text" name="name">
+        </label><br>
+        <label for="">
+          E-mail:
+          <input type="email" name="email">
+        </label><br>
+        <label for="reason">
+          Reason
+        </label>
+        <select name="reason" id="reason">
+          <option value="test">Free Test</option>
+          <option value="technical">Technical Question</option>
+        </select><br>
+        <label for="message">
+          Message:
+        </label><br>
+        <textarea name="message" id="message" cols="30" rows="10"></textarea><br>
+        <input type="submit" value="send">
+      </form>
     </div>
   </div>
 </section>
@@ -229,6 +296,12 @@
   <div class="f-credit">Company 2021</div>
 </footer>
 
-  <script src="js/scripts.js"></script>
+  
+</div>
+<script src="js/scripts.js"></script>
+<script src="butter.js"></script>
+<script>
+  butter.init({cancelOnTouch: false});
+</script>
 </body>
 </html>
