@@ -72,6 +72,7 @@ img.providers{
     justify-content: flex-end;
     background-color: #1B0167;
     color: white;
+    padding-right: 1rem;
 }
 .header-vs{
     text-align: center;
@@ -83,8 +84,12 @@ img.providers{
     justify-content: flex-start;
     background-color: #1B0167;
     color: white;
+    padding-left: 1rem;
 }
-
+.topic{
+    background-color: #420F7A;
+    color: white;
+}
 
 
 
