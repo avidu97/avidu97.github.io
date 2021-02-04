@@ -68,14 +68,19 @@ img.providers{
     grid-template-columns: 5fr 1fr 5fr;
 }
 .header-vps{
+    display: flex;
+    justify-content: flex-end;
     background-color: #1B0167;
     color: white;
 }
 .header-vs{
+    text-align: center;
     background-color: #420F7A;
     color: white;
 }
 .header-shared{
+    display: flex;
+    justify-content: flex-start;
     background-color: #1B0167;
     color: white;
 }
