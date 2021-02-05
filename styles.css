@@ -90,8 +90,14 @@ img.providers{
     background-color: #420F7A;
     color: white;
 }
-
-
+.why{
+    background-image: linear-gradient(-45deg, #8E2DE2, #4A00E0);
+    color: white;
+}
+.w-left{
+    margin: 1rem;
+    padding: 1rem;
+}
 
 
 
