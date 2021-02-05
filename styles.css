@@ -166,6 +166,35 @@ img.providers{
     background-clip: padding-box;
     box-shadow: 10px 10px 10px 10px rgba(46,54,68, 0.03);
 }
+.f-container{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+.features{
+    background-color: #03045E;
+    color: white;
+    text-align: center;
+}
+.feature{
+    background-color: white;
+    color: #03045E;
+    min-width: 300px;
+    min-height: 300px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    margin-top: 10px;
+}
+img.f-images{
+    height: 100px;
+    width: 100px;
+}
+.feature.last{
+    margin-bottom: 10px;
+}
+
+
 
 
 
