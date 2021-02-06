@@ -462,7 +462,7 @@
     .contact-form .input-box {
         position: relative;
         width: 100%;
-        margin-top: 10px;
+        margin-top: 1rem;
     }
     
     .contact-form .input-box input,
@@ -505,7 +505,8 @@
         color: black;
         padding: 0.5rem;
         font-weight: bold;
-        margin-top: 2rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
         cursor: pointer;
         transform: scale(1);
         transition: 200ms;
