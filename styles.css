@@ -16,6 +16,10 @@ h3 {
     padding: 0.25rem;
 }
 
+h4 {
+    padding: 0.25rem;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -174,6 +178,26 @@ img.providers {
     color: white;
     padding: 1rem;
     margin: .3rem;
+}
+
+.wv-fast {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.wv-secure {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.wv-stable {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.wv-scalable {
+    display: flex;
+    flex-direction: column-reverse;
 }
 
 
@@ -624,6 +648,7 @@ img.u-img {
     margin-left: 2rem;
     margin-right: 2rem;
     border-radius: 0.5rem;
+    text-align: center;
 }
 
 #f-about {
@@ -640,4 +665,8 @@ img.u-img {
     text-align: center;
     font-size: .9rem;
     padding: .7rem;
+}
+
+.a-p {
+    padding: 0.2rem;
 }
