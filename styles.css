@@ -4,6 +4,24 @@ font-family: 'Sora', sans-serif;-------- */
 
 /* ---------------------------body----------------------- */
 
+h1 {
+    padding: 1rem;
+}
+
+h2 {
+    padding: .5rem;
+}
+
+h3 {
+    padding: 0.25rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     font-family: 'Sora', sans-serif;
@@ -27,6 +45,7 @@ a {
 
 .hero-btn {
     font-size: .8rem;
+    outline: none;
 }
 
 .hero {
@@ -89,7 +108,7 @@ a {
 
 .p-header {
     text-align: center;
-    color: aliceblue;
+    color: white;
 }
 
 .p-container {
@@ -118,10 +137,6 @@ img.providers {
 
 .p-header {
     background-color: #4361EE;
-}
-
-.providers {
-    margin-top: -1.3rem;
 }
 
 
@@ -443,6 +458,9 @@ img.u-img {
     background: linear-gradient(to right, #FED6E3, #A8EDEA);
 }
 
+
+/* --------------------------contact form-------------------- */
+
 .contact {
     display: grid;
     align-items: center;
@@ -620,4 +638,6 @@ img.u-img {
     background-color: black;
     color: white;
     text-align: center;
+    font-size: .9rem;
+    padding: .7rem;
 }
