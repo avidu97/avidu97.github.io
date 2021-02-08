@@ -38,6 +38,12 @@ a {
 
 /* ----------------------------------hero-------------------- */
 
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .hero-header {
     font-family: 'Sora', sans-serif;
     font-size: 2.2rem;
@@ -108,6 +114,10 @@ a {
 
 .providers {
     background-color: #00132D;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .p-header {
@@ -116,14 +126,18 @@ a {
 }
 
 .p-container {
-    display: grid;
-    max-width: 1200px;
-    align-content: center;
-    text-align: center;
-    padding: .5rem;
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    align-items: center;
+    justify-content: center;
 }
 
 .provider {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background-color: whitesmoke;
     color: #00132D;
     margin: 10px;
@@ -145,6 +159,20 @@ img.providers {
 
 
 /* ----------------------------------why vps--------------------- */
+
+.why-vps {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.p-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
 .wv-header-container {
     display: grid;
@@ -180,22 +208,7 @@ img.providers {
     margin: .3rem;
 }
 
-.wv-fast {
-    display: flex;
-    flex-direction: column-reverse;
-}
-
-.wv-secure {
-    display: flex;
-    flex-direction: column-reverse;
-}
-
-.wv-stable {
-    display: flex;
-    flex-direction: column-reverse;
-}
-
-.wv-scalable {
+.wv {
     display: flex;
     flex-direction: column-reverse;
 }
@@ -204,6 +217,10 @@ img.providers {
 /* -----------------------------why fully managed---------------------- */
 
 .why {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background-image: linear-gradient(-45deg, #8E2DE2, #4A00E0);
     color: white;
 }
@@ -211,10 +228,12 @@ img.providers {
 .w-left {
     margin: 1rem;
     padding: 1rem;
+    text-align: center;
 }
 
 .w-t1 {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
     margin-left: 2rem;
     margin-right: 2rem;
     margin-top: 0.25rem;
@@ -232,7 +251,8 @@ img.providers {
 }
 
 .w-t2 {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
     margin-left: 2rem;
     margin-right: 2rem;
     margin-top: 0.25rem;
@@ -250,7 +270,8 @@ img.providers {
 }
 
 .w-t3 {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
     margin-left: 2rem;
     margin-right: 2rem;
     margin-top: 0.25rem;
@@ -271,7 +292,8 @@ img.providers {
 /* glassmorphism effect */
 
 .w-t4 {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
     margin-left: 2rem;
     margin-right: 2rem;
     margin-top: 0.25rem;
@@ -670,3 +692,6 @@ img.u-img {
 .a-p {
     padding: 0.2rem;
 }
+
+
+/* --------------------------------responsive---------------------- */
