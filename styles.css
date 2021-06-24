@@ -129,7 +129,7 @@ a {
 
 .hero-btn-nml {
     border: none;
-    background: none;
+    background: transparent;
     color: white;
     text-decoration: underline;
 }
