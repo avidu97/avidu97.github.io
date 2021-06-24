@@ -757,3 +757,31 @@ img.u-img {
 
 
 /* --------------------------------responsive---------------------- */
+
+@media only screen and (min-width: 800px) {
+    .hero-container {
+        display: grid;
+        grid-template-columns: 60% 40%;
+        justify-items: center;
+        align-items: center;
+        max-width: 80%;
+    }
+    .hero-right {
+        display: block;
+    }
+    .hero-left {
+        width: 100%;
+    }
+    .p-container {
+        display: grid;
+        grid-template-columns: 300px 300px;
+    }
+    .w-right {
+        display: grid;
+        grid-template-columns: 350px 350px;
+    }
+    .f-container {
+        display: grid;
+        grid-template-columns: 225px 225px 225px 225px;
+    }
+}
